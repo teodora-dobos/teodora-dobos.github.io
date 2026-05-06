@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Academic Homepage</title>
+    <meta
+      name="description"
+      content="A compact academic homepage template for publications, teaching, and contact details."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="page-shell">
+      <nav class="site-nav" aria-label="Section navigation">
+        <a href="#publications-section">Publications</a>
+        <a href="#teaching-section">Teaching</a>
+      </nav>
+
+      <section class="intro" aria-labelledby="person-name">
+        <div class="intro-copy">
+          <h1 id="person-name"></h1>
+          <div id="bio" class="bio"></div>
+        </div>
+
+        <aside class="profile" aria-label="Profile and contact information">
+          <img id="profile-photo" class="profile-photo" alt="">
+          <nav id="social-links" class="social-links" aria-label="Profile links"></nav>
+          <p id="role" class="role"></p>
+          <p id="affiliation" class="affiliation"></p>
+          <p id="email" class="email"></p>
+          <div id="software" class="software"></div>
+        </aside>
+      </section>
+
+      <section id="manuscripts-section" class="content-section">
+        <h2>Manuscripts Under Submission</h2>
+        <ul id="manuscripts" class="simple-list"></ul>
+      </section>
+
+      <section id="publications-section" class="content-section">
+        <h2>Publications</h2>
+        <p id="publication-note" class="section-note"></p>
+        <div id="publications" class="publication-list"></div>
+      </section>
+
+      <section id="teaching-section" class="content-section">
+        <h2>Teaching</h2>
+        <p id="teaching-note" class="section-note"></p>
+        <div id="teaching" class="teaching-list"></div>
+      </section>
+    </main>
+
+    <script src="site-data.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
