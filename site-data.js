@@ -64,7 +64,12 @@ window.siteData = {
         { name: "Teodora Dobos" }
       ],
       venue: "International Conference on the European Energy Market (EEM), 2026, Trondheim, Norway",
-      links: []
+      links: [
+        {
+          label: "paper",
+          url: "assets/Resilience-paper.pdf"
+        }
+      ]
     },
     {
       title: "Zonal vs. Nodal Pricing: An Analysis of Different Pricing Rules in the German Day-Ahead Market",
