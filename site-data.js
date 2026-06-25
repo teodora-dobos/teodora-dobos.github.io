@@ -68,6 +68,10 @@ window.siteData = {
         {
           label: "paper",
           url: "assets/Resilience-paper.pdf"
+        },
+        {
+          label: "slides",
+          url: "assets/Resilience-slides.pdf"
         }
       ]
     },
