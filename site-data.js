@@ -79,12 +79,12 @@ window.siteData = {
         { name: "Johannes Knörr" }
       ],
       venue: "International Conference on the European Energy Market (EEM), 2026, Trondheim, Norway",
-      // links: [
-      //   {
-      //     label: "arXiv",
-      //     url: "https://arxiv.org/abs/2403.09265"
-      //   }
-      // ]
+      links: [
+        {
+          label: "paper",
+          url: "assets/Zonal-Nodal-paper.pdf"
+        }
+      ]
     },
     {
       title: "Probabilistic Forecasting of Regional Redispatch Volumes in Germany",
