@@ -35,7 +35,8 @@ window.siteData = {
   bio: [
     'I am a PhD student in Informatics at the <a href="https://www.tum.de/">Technical University of Munich</a>, supervised by <a href="https://www.cs.cit.tum.de/en/dss/bichler/">Prof. Martin Bichler</a>.',
     'In my research, I develop allocation and pricing algorithms for electricity markets, focusing on large-scale optimization and market design, and combining methods from operations research and machine learning. More recently, I have been working on robust approaches to market clearing and pricing.',
-    'I am also involved in the Flexibility Marketing Cluster of the <a href="https://synergie-projekt.de/">Kopernikus SynErgie Project</a>. Before starting my PhD, I received my M.Sc. and B.Sc. in Informatics from TUM.',
+    'Until June 2026, I was involved in the Flexibility Marketing Cluster of the <a href="https://synergie-projekt.de/">Kopernikus SynErgie Project</a>. Before starting my PhD, I received my M.Sc. and B.Sc. in Informatics from TUM.',
+    'I am currently a Student Researcher at Google Zurich.'
   ],
 
   links: [
