@@ -137,6 +137,8 @@ window.siteData = {
         { name: "Johannes Knörr" }
       ],
       venue: "European Journal of Operational Research (EJOR), 2024",
+      award: "2026 EURO Award for the Best EJOR Paper in the category Innovative Applications of Operational Research",
+      awardUrl: "https://www.euro-online.org/web/pages/1490/award-for-the-best-ejor-paper-eabep",
       links: [
         {
           label: "paper",

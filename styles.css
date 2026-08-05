@@ -331,13 +331,19 @@ h2 {
 
 .authors,
 .venue,
+.award,
 .term {
   color: var(--muted);
 }
 
 .venue,
+.award,
 .term {
   font-size: 0.96rem;
+}
+
+.award {
+  font-style: italic;
 }
 
 .paper-links,

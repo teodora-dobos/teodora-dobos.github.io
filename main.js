@@ -166,6 +166,14 @@ if (data.publications?.length) {
       }
 
       article.append(title, authors, venue);
+
+      if (paper.award) {
+        const award = document.createElement("div");
+        award.className = "award";
+        award.append(paper.awardUrl ? link(paper.award, paper.awardUrl) : document.createTextNode(paper.award));
+        article.append(award);
+      }
+
       return article;
     })
   );
