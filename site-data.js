@@ -59,6 +59,23 @@ window.siteData = {
   publicationNote: "",
   publications: [
     {
+      title: "RSLM: Training-Free Vector Quantization for Approximate Nearest Neighbor Search",
+      authors: [
+        { name: "Rastislav Lenhardt" },
+        { name: "Teodora Dobos" },
+        { name: "Thomas Vecchiato" },
+        { name: "Jiri Isa" },
+        { name: "Igor Ginzburg" }
+      ],
+      venue: "arXiv preprint, 2026",
+      links: [
+        {
+          label: "paper",
+          url: "https://arxiv.org/pdf/2608.30384"
+        }
+      ]
+    },
+    {
       title: "A Market-Based Analysis of Critical Nodes in Power Systems",
       authors: [
         { name: "Martin Bichler" },
